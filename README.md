@@ -2,10 +2,10 @@
 Simple C and Halide implementations of the BLAS3 function SGEMM (real single precision general matrix_matrix multiplication).
 
 # Steps:
-- Place the folder matrix_mul of this repository in the root directory of the repository [Halide](https://github.com/halide/Halide/tree/master).
-- Run the command `cd matrix_mul` in the oot directory of the repository Halide.
-- Make sure the compileRun script has execute permissions by running the command `chmod u+x compileRun` in the matrix_mul directory.
-- Finally run compileRun script with the command `sh compileRun`.
+- Place the folder `matrix_mul` of this repository in the root directory of the repository [Halide](https://github.com/halide/Halide/tree/master).
+- Run the command `cd matrix_mul` in the root directory of the repository Halide.
+- Make sure the `compileRun` script has execute permissions by running the command `chmod u+x compileRun` inside the `matrix_mul` directory.
+- Finally run `compileRun` script with the command `sh compileRun`.
 
 P.S.: the example implements real single precision matrix-matrix multiplication on 4x4 matrices initialized with the value one. If the script runs correctly the output should be the next:
 ```
