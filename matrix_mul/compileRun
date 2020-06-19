@@ -1,0 +1,6 @@
+rm -f *.o
+g++ matrix_mul.cpp -g -I ../include -I ../tools -L ../bin -lHalide -lpthread -ldl -o matrix_mul_halide -std=c++11
+LD_LIBRARY_PATH=../bin ./matrix_mul_halide
+gcc matrix_mul.c -o matrix_mul_c
+./matrix_mul_c
+
